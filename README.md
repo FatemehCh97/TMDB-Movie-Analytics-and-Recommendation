@@ -8,7 +8,6 @@ The Movie Profitability Prediction project aims to analyze a dataset containing 
 1. Clone the Repository
     ```
     git clone <repository_url>
-    cd road_accident_analysis
     ```
 
 
@@ -18,7 +17,7 @@ The Movie Profitability Prediction project aims to analyze a dataset containing 
     ```
 
 ### Dataset
-The dataset used in this project is sourced from TMDB (The Movie Database) and is available on Kaggle at (TMDB Movie Metadata)[https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data]. It provides comprehensive information about thousands of movies, including details such as cast, crew, budget, revenue, production countries, release date.
+The dataset used in this project is sourced from TMDB (The Movie Database) and is available on Kaggle at [TMDB Movie Metadata](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data). It provides comprehensive information about thousands of movies, including details such as cast, crew, budget, revenue, production countries, release date.
 
 ### Project Description
 The project involves the following key phases:
@@ -32,6 +31,8 @@ The project involves the following key phases:
 4. **Data Modeling**: The profitability of movies is defined as the target variable, and feature engineering is performed to select relevant features for training prediction models. Several machine learning models, including Logistic Regression, Decision Tree, Random Forest, and XGBoost, are trained and evaluated.
 
 5. **Evaluation**: Each model is evaluated using metrics such as accuracy, precision, recall, and F1-score. Additionally, ROC-AUC plots are generated to visualize the model's performance in terms of true positive rate vs. false positive rate.
+
+6. **Recommender System:** A recommender system is developed to suggest similar movies based on shared characteristics such as genres, keywords, and cast members. This system utilizes TF-IDF vectorization and cosine similarity to calculate similarity scores between movies and generate recommendations.
 
 
 ### Conclusion
